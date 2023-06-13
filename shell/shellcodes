@@ -1,0 +1,6 @@
+#!/bin/bash
+echo cat .bash_profile - shows the profile bash 
+echo cat ~/.bash_login  -/contains specific settings that are normally only executed when you log in to the system/
+echo ~/.profile - / It can hold the same configurations, which are then also accessible by other shells. Mind that other shells might not understand the Bash syntax./
+echo ~/.bashrc - /he user does not have to provide a user name or password; no authentication is done/
+echo  ~/.bash_logout /contains specific instructions for the logout procedure/
