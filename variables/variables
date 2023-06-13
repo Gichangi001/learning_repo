@@ -1,0 +1,5 @@
+#!/bin/bash
+echo creating variables 
+echo VARNAME="value" > Putting spaces around the equal sign will cause errors. It is a good habit to quote content strings when assigning values to variables: this will reduce the chance that you make errors.
+echo Exporting variables > export VARNAME="value"
+
